@@ -1,7 +1,20 @@
+/* General */
+/* normalisation de ma page RESET CSS*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+a:link, a:visited{
+color:white;
+text-decoration: none;
+padding-left:2rem;
+padding-right:2rem;
+}
+
+.active{
+background-color:#444;
 }
 
 html, body{
@@ -9,61 +22,30 @@ html, body{
     color:#222;
 }
 
-a{
-    text-decoration: none;
-}
-/* HEADER*/
-
 .centerText{
     text-align:center;   
 }
+/* index.html*/
+/* header */
 
 header{
-    display:flex;
-    justify-content: space-between;
-    background-color: #333;
-    height: 6rem;
-    overflow: hidden;
-}
-
-header h1 a{
-    color:white;
+    
 }
 
 h1{
-    float:left;
+    font-size:36px;
     color:white;
     padding:1.23rem;
 }
 
-.active{
-    background-color:#444;
-}
-
-nav{
-    float:right;
-}
-
-nav ul{
-    list-style-type:none;
-}
-
-nav ul li {
-    display:inline;
+li{
+    display:inline-flex;
     line-height: 6rem;
-    font-size:25px
-}
-
-nav ul li a{
     color:white;
-    padding:3rem 0 3rem;
-    padding-inline:2rem;
+    font-size: 25px;
 }
 
-nav ul li a:hover{
-    background-color:#444;
-
-}
+/* section 1 */
 
 .background{
     background-image: url("../img/frame.jpg");
@@ -76,11 +58,12 @@ nav ul li a:hover{
 }
 
 h2{
+    padding-left:8rem;
+    padding-right:8rem;
     font-size: 5rem;
     margin-bottom:1rem;
     line-height: 6rem;
     margin-top: -6rem;
-    padding:0 8rem 0 8rem;
 }
 
 hr{
@@ -94,9 +77,11 @@ hr{
 
 .desc{
     font-size: 25px;
-    margin: 1rem 0 3rem;
-    padding:0 15rem 0 15rem;
+    margin-top: 1rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
     line-height: 3rem;
+    margin-bottom: 3rem;
 }
 
 /*bouton découvrir*/
@@ -125,8 +110,11 @@ div > a[href="./src/pages/where.html"]:hover{
 
 #wrapper{
     display:flex;
+    margin-left: 20rem;
+    margin-right: 20rem;
     text-align:center;
-    margin:5rem 20rem 5rem 20rem;
+    margin-top:5rem;
+    margin-bottom: 5rem;
 }
 
 #left{
@@ -150,7 +138,8 @@ i{
 #img{
     background-image: url("../img/person-1.jpg");
     background-position: center  ;
-    padding: 37rem 0 37rem;
+    padding-top: 37rem;
+    padding-bottom: 37rem;
     margin-bottom:6rem;
 }
 
@@ -164,7 +153,8 @@ h3{
 
 .size{
     font-size:25px;
-    padding:0 10rem 0 10rem;
+    padding-left:10rem;
+    padding-right:10rem;
     line-height: 35px;
     margin-bottom:7rem;
 }
@@ -202,7 +192,8 @@ footer{
     text-align: center;
     color:white;
     background-color: #333;
-    padding: 2rem 0 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     font-size: 22px;
 }
 
@@ -211,7 +202,8 @@ footer{
 .dimension{
     width: 100vmax;
     height: 48vmax;
-    padding:18rem 0 0 30rem;
+    padding-left:30rem;
+    padding-top:18rem;
     margin-bottom:15rem;
 }
 
@@ -289,8 +281,11 @@ button:hover{
 }
 
 #wrapper2{
-    display:inline-flex;
-    margin:17rem 11rem 8rem 11rem;
+    display:flex;
+    margin-left: 11rem;
+    margin-right: 11rem;
+    margin-top:17rem;
+    margin-bottom: 8rem;
 }
 
 #left2{
@@ -308,7 +303,6 @@ button:hover{
 iframe{
     width: 680px;
     height: 450px;
-    margin-right:4rem;
 }
 
 .ligne2{

@@ -5,31 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet"/>
 </head>
 <body>
     <header>
-        <h1>CAFE FLORETTE</h1>
+        <h1><a href="/cafe-html/index.html">CAFE FLORETTE</a></h1>
         <nav>
             <ul>
-                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="/cafe-html/index.html">Accueil</a></li>
                 <li><a href="where.html">Nous trouver</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" class="active">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section>
-        <h3>Une question ? Contactez nous</h3>
-        <hr>
-        <form>
-            <lavel>Nom</lavel>
-            <p><input type="text"></p>
-            <label>Email</label>
-            <p><input type="email"></p>
-            <label>Questions et remarques</label>
-            <p><textarea></textarea></p>
-            <button type="submit">Soumettre</button>
-        </form>
+    <section class="dimension">
+        <div>
+            <h4>Une question ? Contactez nous</h4>
+            <div class="ligne"></div>
+            <form action="#">
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="question">Questions et remarques</label>
+                <textarea></textarea>
+                <button type="submit" name="question" id="question" cols=30 rows=40>Soumettre</button>
+            </form>
+        </div>   
     </section>
+
     <footer>
         <p>Copyright &#9400; - florette - 2019</p>
     </footer>
