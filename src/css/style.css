@@ -67,12 +67,11 @@ nav ul li a:hover{
 
 .background{
     background-image: url("../img/frame.jpg");
-    background-size: 100vmax;
+    background-size: cover;
     background-position: top;
     padding:19rem;
     text-align:center;
     color:white;
-    background-repeat: no-repeat;
 }
 
 h2{
