@@ -68,7 +68,6 @@ nav ul li a:hover{
 .background{
     background-image: url("../img/frame.jpg");
     background-size: cover;
-    background-position: top;
     padding:19rem;
     text-align:center;
     color:white;
@@ -84,7 +83,7 @@ h2{
 
 hr{
     background-color: black;
-    border:0px;
+    border:none;
     height:13px;
     margin-bottom:1rem;
     width: 8rem;
@@ -270,7 +269,7 @@ button:hover{
 #ligne4{
     background-color:mediumorchid;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 50%;
     padding:3px 12px;
     color:white;
     font-weight: bold;
@@ -280,7 +279,7 @@ button:hover{
 #ligne11{
     background-color:sienna;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 50%;
     padding:3px 6px;
     color:white;
     font-weight: bold;
