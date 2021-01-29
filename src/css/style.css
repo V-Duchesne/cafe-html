@@ -34,6 +34,7 @@ h1{
     float:left;
     color:white;
     padding:1.23rem;
+    font-size:2.3rem;
 }
 
 .active{
@@ -51,7 +52,7 @@ nav ul{
 nav ul li {
     display:inline;
     line-height: 6rem;
-    font-size:25px
+    font-size:1.5rem;
 }
 
 nav ul li a{
@@ -64,13 +65,18 @@ nav ul li a:hover{
     background-color:#444;
 
 }
-
+/* section 1 */
 .background{
     background-image: url("../img/frame.jpg");
     background-size: cover;
-    padding:19rem;
+    padding:19rem 0;
     text-align:center;
     color:white;
+}
+
+.div{
+    width:50%;
+    margin:auto;
 }
 
 h2{
@@ -78,22 +84,20 @@ h2{
     margin-bottom:1rem;
     line-height: 6rem;
     margin-top: -6rem;
-    padding:0 8rem 0 8rem;
 }
 
 hr{
     background-color: black;
     border:none;
-    height:13px;
+    height:0.9rem;
     margin-bottom:1rem;
-    width: 8rem;
+    width: 15%;
     margin:auto;
 }
 
 .desc{
-    font-size: 25px;
+    font-size: 1.8rem;
     margin: 1rem 0 3rem;
-    padding:0 15rem 0 15rem;
     line-height: 3rem;
 }
 
@@ -101,12 +105,12 @@ hr{
 div > a[href="./src/pages/where.html"]{
     background-color:white;
     color:black;
-    border-width: 1px;
+    border-width: 0.05rem;
     border-style: solid;
     border-color:black;
-    border-radius: 50px;
-    padding:25px 32px;
-    font-size:20px;
+    border-radius: 3.12rem;
+    padding:1.5rem 2rem;
+    font-size:1.25rem;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -114,9 +118,7 @@ div > a[href="./src/pages/where.html"]{
 div > a[href="./src/pages/where.html"]:hover{
     color:white;
     background-color:black;
-    border-width: 1px;
-    border-style: solid;
-    border-color:white;
+    border: 0.05rem solid white;
 }
 
 /* section 2 */
@@ -129,13 +131,13 @@ div > a[href="./src/pages/where.html"]:hover{
 
 #left{
     flex:0 0 50%;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 2rem;
 }
 
 #right{
     flex:1;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 2rem;
 }
 
@@ -161,9 +163,9 @@ h3{
 }
 
 .size{
-    font-size:25px;
+    font-size:1.5rem;
     padding:0 10rem 0 10rem;
-    line-height: 35px;
+    line-height: 2.1rem;
     margin-bottom:7rem;
 }
 
@@ -176,12 +178,12 @@ h3{
 div > a[href="./src/pages/contact.html"]{
     background-color:black;
     color:white;
-    border-width: 1px;
+    border-width: 0.05rem;
     border-style: solid;
     border-color:white;
-    border-radius: 50px;
-    padding:25px 32px;
-    font-size:20px;
+    border-radius: 3.12rem;
+    padding:1.5rem 2rem;
+    font-size:1.25rem;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -189,9 +191,7 @@ div > a[href="./src/pages/contact.html"]{
 div > a[href="./src/pages/contact.html"]:hover{
     color:black;
     background-color:white;
-    border-width: 1px;
-    border-style: solid;
-    border-color:black;
+    border: 0.05rem solid black;
 }
 
 /* footer */
@@ -201,7 +201,7 @@ footer{
     color:white;
     background-color: #333;
     padding: 2rem 0 2rem;
-    font-size: 22px;
+    font-size: 1.3rem;
 }
 
 /*contact.html*/
@@ -214,35 +214,35 @@ footer{
 }
 
 label{
-    font-size:25px;
+    font-size:1.5rem;
     font-weight: bold;
-    line-height: 80px;
+    line-height: 5rem;
 }
 
 input{
     display:block;
-    width: 950px;
-    height: 70px;
-    font-size: 20px;
+    width: 60rem;
+    height: 4.3rem;
+    font-size: 1.25rem;
 }
 
 textarea{
-    width: 950px;
-    height: 120px;
+    width: 60rem;
+    height: 7.5rem;
     margin-bottom: 2rem;
-    font-size: 20px;
+    font-size: 1.25rem;
     display:block;
 }
 
 button{
     background-color:black;
     color:white;
-    border-width: 1px;
+    border-width: 0.05rem;
     border-style: solid;
     border-color:white;
-    border-radius: 50px;
-    padding:22px 32px;
-    font-size:20px;
+    border-radius: 3.12rem;
+    padding:1.3rem 2rem;
+    font-size:1.25rem;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -250,15 +250,15 @@ button{
 button:hover{
     color:black;
     background-color:white;
-    border-width: 1px;
+    border-width: 0.05rem;
     border-style: solid;
     border-color:black;
 }
 
 .ligne{
-    border-top: lightgray;
+    border-top: black;
     border-style: solid;
-    border-width: 1px;
+    border-width: 0.05rem;
     width:49vmax;
     padding-left: 1rem;
 
@@ -270,20 +270,20 @@ button:hover{
     background-color:mediumorchid;
     text-align: center;
     border-radius: 50%;
-    padding:3px 12px;
+    padding:0.2rem 0.75rem;
     color:white;
     font-weight: bold;
-    font-size:25px
+    font-size:1.5rem;
 }
 
 #ligne11{
     background-color:sienna;
     text-align: center;
     border-radius: 50%;
-    padding:3px 6px;
+    padding:0.2rem 0.3rem;
     color:white;
     font-weight: bold;
-    font-size:25px
+    font-size:1.5rem;
 }
 
 #wrapper2{
@@ -293,36 +293,34 @@ button:hover{
 
 #left2{
     flex:0 0 50%;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 2rem;
 }
 
 #right2{
     flex:1;
-    font-size: 25px;
+    font-size: 1.25rem;
     line-height: 2rem;
 }
 
 iframe{
-    width: 680px;
-    height: 450px;
+    width: 42.5rem;
+    height: 28.1rem;
     margin-right:4rem;
 }
 
 .ligne2{
-    border-top: lightgray;
-    border-style: solid;
-    border-width: 1px;
+    border-top:0.05rem black solid;
 }
 
 .metro{
-    font-size: 30px;
+    font-size: 1.9rem;
     font-weight: bold;
-    line-height: 80px;
+    line-height: 5rem;
 }
 
 h4{
-    font-size: 40px;
+    font-size: 2.5rem;
     padding-bottom:1rem;
-    margin-bottom:10px;
+    margin-bottom:0.6rem;
 }
